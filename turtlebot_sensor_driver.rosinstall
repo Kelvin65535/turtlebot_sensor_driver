@@ -1,0 +1,4 @@
+- git:
+    uri: https://github.com/Kelvin65535/turtlebot_sensor_driver.git
+    local-name: turtlebot_sensor_driver
+    version: master

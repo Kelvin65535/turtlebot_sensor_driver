@@ -1,0 +1,1 @@
+Place .rules file to /etc/udev/rules.d folder then reboot.

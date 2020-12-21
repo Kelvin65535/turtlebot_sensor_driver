@@ -1,0 +1,14 @@
+<package format="2">
+  <name>turtlebot_sensor_driver</name>
+  <version>0.0.0</version>
+  <description>Catkin metapackage for the turtlebot_sensor_driver stack</description>
+  <maintainer email="kelvin@todo.todo">kelvin</maintainer>
+  <license>TODO</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>ls01c</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
