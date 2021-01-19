@@ -1,0 +1,11 @@
+<launch>
+<!-- ls01c lidar driver -->
+    <node name="ls01c" pkg="ls01c" type="ls01c">
+        <!-- 设置激光数据topic名称 -->
+        <param name="scan_topic" value="scan"/>
+        <!-- 激光坐标 -->
+        <param name="laser_link" value="laser_link"/>
+        <!-- 雷达连接的串口 -->
+        <param name="serial_port" value="/dev/ttyS0"/>
+    </node>
+</launch>
